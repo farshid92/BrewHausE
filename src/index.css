@@ -10,6 +10,11 @@
   --font-body: system-ui, -apple-system, "Segoe UI", sans-serif;
 }
 
+html {
+  /* keep anchor targets clear of the sticky header */
+  scroll-padding-top: 4.5rem;
+}
+
 body {
   background-color: var(--color-bg);
   color: var(--color-ink);
